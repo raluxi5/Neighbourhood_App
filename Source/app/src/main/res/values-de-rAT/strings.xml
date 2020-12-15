@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SCA</string>
+
+    <string name="changeLang">DE/EN</string>
+    <string name="login">Schon ein Mitglied? Einloggen</string>
+    <string name="signup">Neu? Ein Konto erstellen</string>
+    <string name="guest">Als Gast fortfahren</string>
+    <string name="Login">Einloggen</string>
+    <string name="Log">Einloggen</string>
+    <string name="Passw">Passwort</string>
+    <string name="log_in">Einloggen</string>
+    <string name="create_acc">Registrieren</string>
+    <string name="Fname">Vorname</string>
+    <string name="Lname">Nachname</string>
+    <string name="Street">Straße</string>
+    <string name="Number">Nummer</string>
+    <string name="ZIP">ZIP Code</string>
+    <string name="City">Stadt</string>
+    <string name="Country">Staat</string>
+    <string name="Resident">Bewohner</string>
+    <string name="Guest">Gast</string>
+    <string name="Username">Username</string>
+    <string name="make_post">Etwas mitteilen</string>
+    <string name="button_post">Mitteilen</string>
+    <string name="welcome">Willkommen zu Smart City Ambience</string>
+    <string name="successful">Dein Konto wurde erfolgreich erstellt!</string>
+    <string name="tomap">Drücke auf weiter um auf die Map anzukommen</string>
+    <string name="next">Weiter</string>
+    <string name="toasttest_success">Konto erstellt!</string>
+
+    <string name="show_features">Nachbarschaft entdecken</string>
+    <string name="neubau_region">Neubau Nachbarschaft Dienstleistungen</string>
+    <string name="feedback_title">Bewertungen</string>
+    <string name="feedback_button">Bewertung schreiben</string>
+    <string name="art_museum">Nationale Kunst Museum</string>
+    <string name="merkur">Merkur</string>
+    <string name="hotel">Royal Hotel</string>
+    <string name="hospital">Artemis Krankenhaus</string>
+    <string name="adress">Adresse:</string>
+    <string name="openinghours">Öffnungszeiten:</string>
+    <string name="phone">Telefon Nummer:</string>
+    <string name="profile">Profil</string>
+    <string name="signin">Konto erstellen</string>
+    <string name="chat">Chat</string>
+    <string name="map">Karte</string>
+    <string name="language">Sprache</string>
+    <string name="report">Problem melden</string>
+
+    <string name="Open">NavBar</string>
+    <string name="Close">NavBar</string>
+
+    <string name="chat_error1">Um den ChatRoom zu verwenden muss man ein Member von Smart City Ambience sein</string>
+    <string name="cha_error2">Bitte anmelden oder einen Konto erstellen</string>
+
+</resources>

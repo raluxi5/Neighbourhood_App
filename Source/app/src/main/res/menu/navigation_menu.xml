@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuLogin"
+        android:icon="@drawable/baseline_login"
+        android:title="@string/login"  />
+
+    <item
+        android:id="@+id/menuSignin"
+        android:icon="@drawable/baseline_signin"
+        android:title="@string/signin" />
+
+    <item
+        android:id="@+id/menuChat"
+        android:icon="@drawable/baseline_chat"
+        android:title="@string/chat" />
+
+    <item
+        android:id="@+id/menuMap"
+        android:icon="@drawable/baseline_map"
+        android:title="@string/map" />
+
+    <item
+        android:id="@+id/menuLanguage"
+        android:icon="@drawable/baseline_language"
+        android:title="@string/language" />
+
+    <item
+        android:id="@+id/menuReport"
+        android:icon="@drawable/baseline_report"
+        android:title="@string/report" />
+</menu>

@@ -1,0 +1,61 @@
+<resources>
+
+    <string name="app_name">Smart City Ambience</string>
+    <string name="access_token" translatable="false">pk.eyJ1IjoicmFsdWNoaTU1IiwiYSI6ImNrYTZsc3VzMjA4OXYydXBra3F4cWxuZ2IifQ.8l91k3oH4xT45LD8GLBC0g</string>
+
+    <string name="changeLang">DE/EN</string>
+    <string name="login">Already a member? Log in</string>
+    <string name="signup">New? Create an account</string>
+    <string name="guest">Continue as a guest</string>
+    <string name="Login">Login</string>
+    <string name="Log">Log in</string>
+    <string name="Passw">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="create_acc">Create account</string>
+    <string name="Fname">First Name</string>
+    <string name="Lname">Last Name</string>
+    <string name="Street">Street</string>
+    <string name="Number">Number</string>
+    <string name="ZIP">ZIP Code</string>
+    <string name="City">City</string>
+    <string name="Country">Country</string>
+    <string name="Resident">Resident</string>
+    <string name="Guest">Guest</string>
+    <string name="Username">Username</string>
+    <string name="make_post">Share something</string>
+    <string name="button_post">Share</string>
+    <string name="welcome">Welcome to Smart City Ambience</string>
+    <string name="successful">Your account was successfully created!</string>
+    <string name="tomap">Press next to continue on the map</string>
+    <string name="next">Next</string>
+    <string name="toasttest_success">Account created!</string>
+    <string name="show_features">Discover the neighbourhood</string>
+    <string name="neubau_region">Neubau neighbourhood features</string>
+    <string name="feedback_title">Feedbacks:</string>
+    <string name="feedback_button">Write a feedback</string>
+    <string name="art_museum">National Art Museum</string>
+    <string name="merkur">Merkur</string>
+    <string name="hotel">Royal Hotel</string>
+    <string name="hospital">Artemis hospital</string>
+    <string name="adress">Address:</string>
+    <string name="openinghours">Opening hours:</string>
+    <string name="phone">Phone number:</string>
+
+    <string name="profile">Profile</string>
+    <string name="signin">Create an account</string>
+    <string name="chat">Chat</string>
+    <string name="map">Map</string>
+    <string name="language">Language</string>
+    <string name="report">Report a problem</string>
+
+    <string name="Open">NavBar Open</string>
+    <string name="Close">NavBar Close</string>
+
+    <string name="chat_error1">The ChatRoom can only be accessed if you are a member of Smart City Ambience</string>
+    <string name="cha_error2">Please log in or create an account</string>
+
+
+
+
+
+</resources>

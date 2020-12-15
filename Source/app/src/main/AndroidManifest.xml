@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sca">
+    <!-- Internet Permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo3"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo3"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme1">
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".Create_Acc"/>
+        <activity android:name=".ChatPosts_Activity"/>
+        <activity android:name=".WriteComm_Activity"/>
+        <activity android:name=".Next_onCreateAccount"/>
+        <activity android:name=".Comm_Activity"/>
+        <activity android:name=".Problem_Activity"/>
+        <activity android:name=".Map_Activity"/>
+        <activity android:name=".Nbhd_Activity"/>
+        <activity android:name=".RoyalHotel"/>
+        <activity android:name=".MerkurShop"/>
+        <activity android:name=".ArtemisHospital"/>
+        <activity android:name=".Arts"/>
+        <activity android:name=".WriteFeedback"/>
+        <activity android:name=".Navigation"/>
+        <activity android:name=".Chat_Next"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

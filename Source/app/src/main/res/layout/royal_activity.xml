@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBACKGROUNDgreen"
+    >
+
+    <TextView
+        android:id="@+id/itemName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar6"
+        android:layout_centerHorizontal="true"
+        android:text="@string/hotel"
+        android:textColor="@color/colorDARKgreen"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="match_parent"
+        android:layout_height="237dp"
+        android:layout_below="@id/itemName3"
+        android:layout_alignParentLeft="false"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/the_royal_hotel" />
+
+    <TextView
+        android:id="@+id/address1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:layout_centerHorizontal="false"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:text="Address: Sonntag Street 18"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/openingh1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/address1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="16sp"
+        android:text="Opening hours: 7:00 - 23:00" />
+
+    <TextView
+        android:id="@+id/phone1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/openingh1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:textSize="16sp"
+        android:layout_marginTop="5dp"
+        android:text="Phone Number: +43134320422" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_marginTop="400dp"
+        android:background="@color/colorDARKyellow" />
+
+    <TextView
+        android:id="@+id/textViewTEXT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/feedback_title"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider3"
+        android:layout_alignLeft="@id/textViewTEXT2"
+        android:layout_marginLeft="258dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorLIGHTredpink"
+        android:text="@string/feedback_button"
+        android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/colorLIGHTredpink" />
+
+    <ListView
+        android:id="@+id/feedbacks"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/button2"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:divider="@color/colorDARKyellow"
+        android:dividerHeight="1dp" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="?attr/actionModeCloseDrawable" />
+
+
+</RelativeLayout>

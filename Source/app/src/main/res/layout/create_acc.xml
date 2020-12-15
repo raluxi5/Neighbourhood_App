@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBACKGROUNDgreen"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+
+    tools:context=".Create_Acc">
+
+
+    <!--EditText: Input First Name-->
+
+    <!--EditText: Input LastName-->
+
+    <TextView
+        android:id="@+id/entryText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center_horizontal"
+        android:text="@string/create_acc"
+        android:textAlignment="center"
+        android:textColor="@color/colorDARKgreen"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/firstnameTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entryText"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/FirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Fname"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/lastnameTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstnameTIL"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/LastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Lname"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Input Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lastnameTIL"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/Email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Username Input-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/emailTIL"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/Username_reg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Username"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Input Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/usernameTIL"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="0dp"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Passw"
+            android:inputType="textPassword"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--EditText: Input Address Street-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/StreetTIL"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTIL"
+        android:layout_alignParentLeft="false"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="20dp">
+
+        <EditText
+            android:id="@+id/Street"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/Street"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Input Address Number-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/NumberTIL"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/passwordTIL"
+        android:layout_marginLeft="220dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/Number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Number"
+            android:inputType="number"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--EditText: Input ZIP-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/zipTIL"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SpinnerTIL"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="0dp">
+
+        <EditText
+            android:id="@+id/ZIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/ZIP"
+            android:inputType="number"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--EditText: Input City-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/CityTIL"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SpinnerTIL"
+        android:layout_alignLeft="@id/zipTIL"
+        android:layout_centerVertical="false"
+        android:layout_marginLeft="130dp">
+
+        <EditText
+            android:id="@+id/City"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/City"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!-- Spinner -->
+    <!--EditText: Input Country-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/SpinnerTIL"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/StreetTIL"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="30dp">
+
+        <Spinner
+            android:id="@+id/Status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:foregroundGravity="center_vertical"
+            android:hint="Status" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <!--Button: Register User-->
+    <Button
+        android:id="@+id/buttonRegister"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CityTIL"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="20dp"
+        android:background="@color/colorLIGHTredpink"
+        android:text="@string/create_acc"
+        android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/colorLIGHTredpink" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:navigationIcon="?attr/actionModeCloseDrawable" />
+
+
+</RelativeLayout>

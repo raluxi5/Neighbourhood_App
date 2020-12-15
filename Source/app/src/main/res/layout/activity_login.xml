@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBACKGROUNDgreen"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:gravity="center_horizontal"
+        android:text="@string/Log"
+        android:textAlignment="center"
+        android:textColor="@color/colorDARKgreen"
+        android:textSize="25sp" />
+
+    <!--EditText: Input Email-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/emailTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp">
+
+        <EditText
+            android:id="@+id/username_log"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/Username"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--EditText: Input Password-->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passwordTIL"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/emailTIL"
+        android:layout_centerInParent="true"
+        app:passwordToggleEnabled="true">
+
+        <EditText
+            android:id="@+id/passwordEt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Passw"
+            android:inputType="textPassword"
+            android:textColor="@color/colorDARKgreen" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--Button: Register User-->
+    <Button
+        android:id="@+id/loginBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_below="@id/passwordTIL"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorLIGHTredpink"
+        android:text="@string/Login"
+        android:textColor="@color/colorWhite"
+        app:backgroundTint="@color/colorLIGHTredpink" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        android:logo="@drawable/logo3"
+        app:navigationIcon="?attr/homeAsUpIndicator" />
+
+
+</RelativeLayout>
