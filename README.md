@@ -1,4 +1,5 @@
 # Neighbourhood_App
+University Project 
 Android App for discovering a neighbourhood with visualisation of ratings
 
 Source directory contains the source code of the app |
